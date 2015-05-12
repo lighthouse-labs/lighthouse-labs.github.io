@@ -36,17 +36,19 @@ h2{
 
 }
 
+header {
+  background-color: #2db4db; 
+}
 
 img{
-    width: 250px;
-  position: absolute;
+  width: 250px;
   padding-left: 50px;
   padding-top: 50px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -123,7 +125,7 @@ form{
 }
 
 .section.hero{
-    background-image: url('../images/city.png');
+  background-image: url('../images/city.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position:bottom; 
